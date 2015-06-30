@@ -1,0 +1,51 @@
+Parte 1: checagem com um vetor ordenado de forma crescente.
+Tamanho do vetor: 1000.
+method		time		check		swap
+bubble		0.003793	    500500	         0
+insertion	0.000012	       999	         0
+selection	0.003609	    499500	         0
+merge		0.000421	      4932	      9976
+quick		0.000068	      9009	       511
+
+Parte 2: checagem com um vetor ordenado de forma decrescente.
+Tamanho do vetor: 1000.
+method		time		check		swap
+bubble		0.006644	    500500	    499500
+insertion	0.004249	    500499	    499500
+selection	0.003465	    499500	       500
+merge		0.000269	      5044	      9976
+quick		0.000079	      9016	      1010
+
+Parte 3: checagem com vetores ordenados de forma aleatória.
+Tamanho do vetor: 1000. Número de checagens: 10.
+Execução 1 dos métodos, total de 10.
+Execução 2 dos métodos, total de 10.
+Execução 3 dos métodos, total de 10.
+Execução 4 dos métodos, total de 10.
+Execução 5 dos métodos, total de 10.
+Execução 6 dos métodos, total de 10.
+Execução 7 dos métodos, total de 10.
+Execução 8 dos métodos, total de 10.
+Execução 9 dos métodos, total de 10.
+Execução 10 dos métodos, total de 10.
+method		av. time	av. check	av. swap
+bubble		0.002735	    500500	    248893
+insertion	0.001052	    249892	    248893
+selection	0.001671	    499500	       991
+merge		0.000180	      8705	      9976
+quick		0.000112	     13237	      2597
+
+method		worst time	worst check	worst swap
+bubble		0.006886	    500500	    256175
+insertion	0.003026	    257174	    256175
+selection	0.003205	    499500	       995
+merge		0.000352	      8749	      9976
+quick		0.000221	     14658	      2642
+
+method		best time	best check	best swap
+bubble		0.002098	    500500	    236715
+insertion	0.000800	    237714	    236715
+selection	0.001441	    499500	       987
+merge		0.000156	      8684	      9976
+quick		0.000096	     12632	      2539
+Fim das checagens.

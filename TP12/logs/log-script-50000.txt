@@ -1,0 +1,23 @@
+vector size: 50000, number of threads: 2
+sum value: 4988992, time at main: 0.000140 seconds
+sum value: 4988992, time with threads: 0.004411 seconds
+
+vector size: 50000, number of threads: 4
+sum value: 5011902, time at main: 0.000141 seconds
+sum value: 5011902, time with threads: 0.005189 seconds
+
+vector size: 50000, number of threads: 8
+sum value: 4998466, time at main: 0.000140 seconds
+sum value: 4998466, time with threads: 0.007195 seconds
+
+vector size: 50000, number of threads: 16
+sum value: 4996054, time at main: 0.000141 seconds
+sum value: 4996054, time with threads: 0.007389 seconds
+
+vector size: 50000, number of threads: 32
+sum value: 4993847, time at main: 0.000139 seconds
+sum value: 4993847, time with threads: 0.007334 seconds
+
+vector size: 50000, number of threads: 64
+sum value: 4976932, time at main: 0.000140 seconds
+sum value: 4976932, time with threads: 0.006851 seconds

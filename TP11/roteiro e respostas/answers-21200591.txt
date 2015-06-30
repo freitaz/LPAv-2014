@@ -1,0 +1,292 @@
+/* Universidade Federal do Amazonas - Ufam
+ * Instituto de Computação - IComp
+ * Laboratório de Programação Avançada - LPAv
+ * Luan de Freitas Uchôa - 21200591
+ *
+ * 18/07/2014 - Raciocínio Lógico
+ */
+
+1 - Letras que não pertencem ao grupo
+
+BDF HJK LNO
+
+A letra F é a estranha. No lugar dela, deveria ser a letra E, de modo a manter a
+sequência, isto é, grupos de quatro letras em sequência, excluindo a segunda.
+
+CGK MOQ RTV
+
+A letra C é a estranha. Ela deve ser removida e um I deve ser inserido entre o G e
+o K, de modo a manter a sequência (letra sim, letra não).
+
+#################################################################################
+
+2 - Palavras que não pertencem ao grupo
+
+ seis oito
+ nove quatro
+cinco dez
+
+As palavras da direita representam números divisíveis por dois, e as palavras da
+esquerda representam números divisíveis por três, exceto "cinco", que não é
+divisível por três.
+
+ 
+
+ propósito igual
+     nível careta
+mistificar empregar
+
+Todas as palavras possuem duas vogais distintas, exceto "igual", que possui três
+vogais distintas.
+
+
+
+vermelho marrom
+ laranja verde
+ violeta cinza
+ 
+As palavras da direita são palavas dissílabas, e as palavras da esquerda são
+trissílabas, com exceção de "violeta", que possui quatro sílabas.
+
+#################################################################################
+
+3 - Séries de números
+
+1 2 3 4 6 7 10 ?
+
+Os números nas posições ímpares aumentam em uma soma cujo termo aditivo é uma P.A.
+com termo inicial 2 e razão 1: 1 + 2 = 3, 3 + 3 = 6, 6 + 4 = 10.
+
+Os números nas posições pares aumentam assim como os números ímpares:
+2 + 2 = 4, 4 + 3 = 7, 7 + 4 = 11.
+Portanto o número que completa a série é o 11.
+
+
+2 2 5 3 11 5 23 ?
+
+Os números nas posições ímpares aumentam em uma soma cujo termo aditivo cresce em
+uma P.G com termo inicial 3 e razão 2: 2 + 3 = 5, 5 + 6 = 11, 11 + 12 = 23.
+
+Os números nas posições pares aumentam em uma soma cujo termo aditivo cresce em
+uma P.G. com termo inicial 1 e razão 2: 2 + 1 = 3, 3 + 2 = 5, 5 + 4 = 9.
+Portanto o número que completa a série é o 9.
+
+
+4 7 8 9 16 11 32 ?
+
+O número em uma determinada posição ímpar é o número na posição ímpar imediatamente
+anterior multiplicado por 2: 4 * 2 = 8, 8 * 2 = 16, 16 * 2 = 32.
+
+Os números nas posições ímpares aumentam em duas unidades por posição par.
+7 + 2 = 9, 9 + 2 = 11, 11 + 2 = 13.
+Portanto o número que completa a série é o 13.
+
+#################################################################################
+
+4 - Códigos
+
+1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+
+Em todos os casos, as letras seguem essa ordem. Portanto, as palavras seriam:
+
+19 15 12 = SOL
+15 18 4 5 14 1 4 15 18 = ORDENADOR
+7 5 18 1 14 9 15 = GERÂNIO
+
+#################################################################################
+
+5 - Séries nas grades
+
+ 3 | 6 | 2
+---+---+---
+ 4 | ? | 2
+---+---+---
+ 1 | 5 | 5
+
+Os números na terceira coluna são os coeficientes de multiplicação dos números
+da primeira coluna que geram os números da segunda coluna. Portanto, o número do
+meio é o 8.
+
+
+ 8 | 2 | 4
+---+---+---
+ 9 | 3 | 3
+---+---+---
+10 | ? | 2
+
+Os números da terceira coluna são o quociente enntre os números da primeira
+coluna e os números da segunda coluna. Portanto, o número no lugar da
+interrogação é o 5.
+
+ 1 | 3 | 10
+---+---+---
+ 2 | 2 | 8
+---+---+---
+ 3 | 2 | ?
+ 
+1² + 3² = 1 + 9 = 10.
+2² + 2² = 4 + 4 = 8.
+3² + 2² = 9 + 4 = 13.
+Portanto, o número no lugar da interrogação é o 13.
+
+##############################################################################
+
+6 - Séries lógicas com letras
+
+M N L N K O J O I P ?
+^   ^   ^   ^   ^   H
+
+As letras ímpares seguem a ordem inversa do alfabeto. Como a interrogação está
+em posição ímpar, a letra é H.
+
+E H K O N Q T X ?
+
+[E H K O]   [N Q T X] ?
+
+Suponhamos a atribuição de números às letras, conforme a ordem do alfabeto:
+A = 1, B = 2... Z = 26
+
+E + 3 = H   N + 3 = Q
+H + 3 = K   Q + 3 = T
+K + 4 = O   T + 4 = X
+
+O - 1 = N
+
+A próxima letra inicia um novo grupo. Seguindo a lógica existente, X - 1 = W.
+Portanto, W é a próxima letra.
+
+T S V W S Z A S E F S ?
+  |     |     |     |
+  |     |     |     +-- G, H, I, J
+  |     |     +-------- B, C, D
+  |     +-------------- X, Y
+  +-------------------- U
+
+Como o S substitui grupos de letras, para manter a sequência a próxima letra
+deverá ser a letra K.
+
+#############################################################################
+
+7 - Palavra entre parênteses
+
+   #---# #---#
+LISA (LA TA) TELA
+#-----#   #-----#
+
+Segundo a equivalência de letras exibida, a palavra entre parênteses é:
+
+   #---# #---#
+GATO (GO MA) MINA
+#-----#   #-----#
+
+---------------------------------------------------
+
+++--------++
+##        ##
+CAMA (M A CA) COA M
+      # #-------# #
+      +-----------+
+
+Segundo a equivalência de letras, a palavra entre parênteses é:
+
+++--------++
+##        ##
+DOCE (R A DO) LUA R
+      # #-------# #
+      +-----------+
+
+----------------------------------------------------
+
+  #----# #-----#
+GATO (ATAR) AMAR
+ #----# #---#
+
+Segundo a equivalência de letras, a palavra entre parênteses é:
+
+  #----# #-----#
+CALO (ALMA) MALA
+ #----# #---#
+
+#########################################################################
+ 
+8 - Pizza com números
+
+1: Os números da parte superior são iguais aos números da parte inferior
+divididos por sete. 84 dividido por 7 é 12; logo o número é 12.
+
+
+2: A partir do três, ocorre uma soma em progressão geométrica.
+3+1 = 4
+4+2 = 6
+6+4 = 10
+10+8 = 18
+18 + 16 = 34
+34 + 32 = 66
+66 + 64 = 130
+Portanto, 130 é o número.
+
+
+3: Na metade superior, ocorre uma soma em progressão geométrica:
+3 + 3 = 6
+6 + 6 = 12
+12 + 12 = 24
+Já na metade inferior, ocorre uma subtração em progressão geométrica:
+43 - 24 = 19
+19 - 12 = 7
+7 - 6 = 1
+Portanto, 7 é o número.
+
+#############################################################################
+
+9 - Números entre parênteses
+
+1.
+59 (108) 45
+
+O número é formado pela concatenação do dobro do primeiro dígito do primeiro
+número com o dobro do primeiro dígito do segundo número. Portanto, o número
+entre parênteses será:
+
+67 (1216) 83
+-------------------------------
+2.
+35 (231) 42
+
+O número é o triplo da soma dos outros dois números. Logo, o número entre
+parênteses será:
+
+29 (270) 61
+
+--------------------------------
+3.
+57 (315) 48
+
+O número é o triplo da soma dos outros dois números. Logo, o número entre
+parênteses será:
+
+92 (321) 15
+
+###########################################################################
+
+10.
+
+1/3, 1/4, 3/0
+3/4, 3/5, 5/1
+5/5, 5/6, ?/?
+
+Em cada linha, a metade inferior é incrementada em 1 e depois em 3. A metade
+superior é incrementada em 0 e depois em 2. Caso a soma seja maior que 6, 7
+é subtraído do resultado. Desse modo, para que a sequência seja mantida, a
+próxima pedra deverá ser 0/2.
+
+
+
+2/1, 2/3, 4/5
+4/0, 4/2, 6/4
+6/6, 6/1, ?/?
+
+Em cada linha, a metade inferior incrementa em 2, e a superior incrementa
+em 2 da segunda para a terceira pedra. Caso a soma seja maior que 6, 7 é
+subtraído do resultado. Desse modo, para que a sequência seja mantida, a
+próxima pedra deverá ser 1/3.

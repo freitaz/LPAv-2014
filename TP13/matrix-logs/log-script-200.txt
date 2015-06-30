@@ -1,0 +1,77 @@
+Criando dados para as matrizes... feito.
+
+Iniciando as contas na função main().
+As contas na main() foram finalizadas.
+
+Iniciando as contas com 2 threads.
+As threads foram finalizadas.
+
+Resultados iguais.
+
+Tempo na main(): 0.038946 segundos
+Tempo com threads: 0.032884 segundos
+
+Criando dados para as matrizes... feito.
+
+Iniciando as contas na função main().
+As contas na main() foram finalizadas.
+
+Iniciando as contas com 4 threads.
+As threads foram finalizadas.
+
+Resultados iguais.
+
+Tempo na main(): 0.032391 segundos
+Tempo com threads: 0.016255 segundos
+
+Criando dados para as matrizes... feito.
+
+Iniciando as contas na função main().
+As contas na main() foram finalizadas.
+
+Iniciando as contas com 8 threads.
+As threads foram finalizadas.
+
+Resultados iguais.
+
+Tempo na main(): 0.032460 segundos
+Tempo com threads: 0.018082 segundos
+
+Criando dados para as matrizes... feito.
+
+Iniciando as contas na função main().
+As contas na main() foram finalizadas.
+
+Iniciando as contas com 16 threads.
+As threads foram finalizadas.
+
+Resultados iguais.
+
+Tempo na main(): 0.032617 segundos
+Tempo com threads: 0.017441 segundos
+
+Criando dados para as matrizes... feito.
+
+Iniciando as contas na função main().
+As contas na main() foram finalizadas.
+
+Iniciando as contas com 32 threads.
+As threads foram finalizadas.
+
+Resultados iguais.
+
+Tempo na main(): 0.039764 segundos
+Tempo com threads: 0.016875 segundos
+
+Criando dados para as matrizes... feito.
+
+Iniciando as contas na função main().
+As contas na main() foram finalizadas.
+
+Iniciando as contas com 64 threads.
+As threads foram finalizadas.
+
+Resultados iguais.
+
+Tempo na main(): 0.031961 segundos
+Tempo com threads: 0.017276 segundos
